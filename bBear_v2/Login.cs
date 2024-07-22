@@ -49,12 +49,14 @@ namespace bBear_v2
                 // ใช้ Task.Run เพื่อโหลด FormMain ในเธรดแยกต่างหาก
                 await Task.Run(() =>
                 {
-                    FormMain mainForm = new FormMain(selectedServer,userName);
+                    selectedServer = "BENDCEMB-LT\\SQLEXPRESS"; //หลัง dev ลบทิ้ง
+
+                    FormMain mainForm = new FormMain(selectedServer, userName);
                     mainForm.Load += (s, args) => loadingForm.Invoke(new Action(() => loadingForm.Close())); // ปิดฟอร์มการโหลดเมื่อโหลดเสร็จ
                     mainForm.FormClosed += (s, args) => this.Invoke(new Action(() => this.Close())); // ปิดโปรแกรมเมื่อ MainForm ถูกปิด
                     mainForm.ShowDialog();
 
-                    
+
                 });
             }
             else

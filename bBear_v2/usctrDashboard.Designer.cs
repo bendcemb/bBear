@@ -37,15 +37,19 @@
             this.dtgvDashboard = new System.Windows.Forms.DataGridView();
             this.panelTop = new System.Windows.Forms.TableLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lblBox4_2 = new System.Windows.Forms.Label();
             this.lblCurrentMonthCash = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblBox3_2 = new System.Windows.Forms.Label();
             this.lblTotalOutstandingDebts = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblBox2_2 = new System.Windows.Forms.Label();
             this.lblOwner = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblBox1_2 = new System.Windows.Forms.Label();
             this.lblCountRoom = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -53,10 +57,6 @@
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnPrevios = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
-            this.lblBox1_2 = new System.Windows.Forms.Label();
-            this.lblBox2_2 = new System.Windows.Forms.Label();
-            this.lblBox3_2 = new System.Windows.Forms.Label();
-            this.lblBox4_2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDashboard)).BeginInit();
             this.panelTop.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -74,7 +74,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgvDashboard.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvDashboard.Location = new System.Drawing.Point(27, 469);
-            this.dtgvDashboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgvDashboard.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvDashboard.Name = "dtgvDashboard";
             this.dtgvDashboard.RowHeadersWidth = 51;
             this.dtgvDashboard.Size = new System.Drawing.Size(827, 306);
@@ -94,7 +94,7 @@
             this.panelTop.Controls.Add(this.panel2, 1, 0);
             this.panelTop.Controls.Add(this.panel1, 0, 0);
             this.panelTop.Location = new System.Drawing.Point(23, 9);
-            this.panelTop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelTop.Margin = new System.Windows.Forms.Padding(4);
             this.panelTop.Name = "panelTop";
             this.panelTop.RowCount = 1;
             this.panelTop.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -116,6 +116,17 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(190, 107);
             this.panel4.TabIndex = 4;
+            // 
+            // lblBox4_2
+            // 
+            this.lblBox4_2.AutoSize = true;
+            this.lblBox4_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblBox4_2.ForeColor = System.Drawing.Color.Orange;
+            this.lblBox4_2.Location = new System.Drawing.Point(24, 34);
+            this.lblBox4_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBox4_2.Name = "lblBox4_2";
+            this.lblBox4_2.Size = new System.Drawing.Size(0, 18);
+            this.lblBox4_2.TabIndex = 6;
             // 
             // lblCurrentMonthCash
             // 
@@ -155,6 +166,17 @@
             this.panel3.Size = new System.Drawing.Size(181, 107);
             this.panel3.TabIndex = 3;
             // 
+            // lblBox3_2
+            // 
+            this.lblBox3_2.AutoSize = true;
+            this.lblBox3_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblBox3_2.ForeColor = System.Drawing.Color.White;
+            this.lblBox3_2.Location = new System.Drawing.Point(26, 33);
+            this.lblBox3_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBox3_2.Name = "lblBox3_2";
+            this.lblBox3_2.Size = new System.Drawing.Size(0, 18);
+            this.lblBox3_2.TabIndex = 5;
+            // 
             // lblTotalOutstandingDebts
             // 
             this.lblTotalOutstandingDebts.AutoSize = true;
@@ -192,6 +214,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(181, 107);
             this.panel2.TabIndex = 2;
+            // 
+            // lblBox2_2
+            // 
+            this.lblBox2_2.AutoSize = true;
+            this.lblBox2_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblBox2_2.ForeColor = System.Drawing.Color.White;
+            this.lblBox2_2.Location = new System.Drawing.Point(28, 33);
+            this.lblBox2_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBox2_2.Name = "lblBox2_2";
+            this.lblBox2_2.Size = new System.Drawing.Size(0, 18);
+            this.lblBox2_2.TabIndex = 4;
             // 
             // lblOwner
             // 
@@ -231,6 +264,17 @@
             this.panel1.Size = new System.Drawing.Size(194, 107);
             this.panel1.TabIndex = 0;
             // 
+            // lblBox1_2
+            // 
+            this.lblBox1_2.AutoSize = true;
+            this.lblBox1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblBox1_2.ForeColor = System.Drawing.Color.White;
+            this.lblBox1_2.Location = new System.Drawing.Point(21, 32);
+            this.lblBox1_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBox1_2.Name = "lblBox1_2";
+            this.lblBox1_2.Size = new System.Drawing.Size(0, 18);
+            this.lblBox1_2.TabIndex = 2;
+            // 
             // lblCountRoom
             // 
             this.lblCountRoom.AutoSize = true;
@@ -265,7 +309,7 @@
             this.tableLayoutPanel2.Controls.Add(this.chart1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.chart2, 1, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(23, 139);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -277,7 +321,7 @@
             this.chart1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.chart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.chart1.BackColor = System.Drawing.Color.Black;
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
@@ -298,7 +342,8 @@
             this.chart2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.chart2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.chart2.BackColor = System.Drawing.Color.Black;
+            this.chart2.BorderlineColor = System.Drawing.Color.Gainsboro;
             chartArea2.Name = "ChartArea1";
             this.chart2.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
@@ -306,6 +351,9 @@
             this.chart2.Location = new System.Drawing.Point(345, 12);
             this.chart2.Margin = new System.Windows.Forms.Padding(13, 12, 0, 12);
             this.chart2.Name = "chart2";
+            this.chart2.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))))};
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series2.Legend = "Legend1";
@@ -319,7 +367,7 @@
             // 
             this.btnPrevios.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPrevios.Location = new System.Drawing.Point(27, 783);
-            this.btnPrevios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPrevios.Margin = new System.Windows.Forms.Padding(4);
             this.btnPrevios.Name = "btnPrevios";
             this.btnPrevios.Size = new System.Drawing.Size(100, 28);
             this.btnPrevios.TabIndex = 6;
@@ -331,57 +379,13 @@
             // 
             this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnNext.Location = new System.Drawing.Point(135, 783);
-            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(4);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(100, 28);
             this.btnNext.TabIndex = 7;
             this.btnNext.Text = "ถัดไป";
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
-            // 
-            // lblBox1_2
-            // 
-            this.lblBox1_2.AutoSize = true;
-            this.lblBox1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lblBox1_2.ForeColor = System.Drawing.Color.White;
-            this.lblBox1_2.Location = new System.Drawing.Point(21, 32);
-            this.lblBox1_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblBox1_2.Name = "lblBox1_2";
-            this.lblBox1_2.Size = new System.Drawing.Size(0, 18);
-            this.lblBox1_2.TabIndex = 2;
-            // 
-            // lblBox2_2
-            // 
-            this.lblBox2_2.AutoSize = true;
-            this.lblBox2_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lblBox2_2.ForeColor = System.Drawing.Color.White;
-            this.lblBox2_2.Location = new System.Drawing.Point(28, 33);
-            this.lblBox2_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblBox2_2.Name = "lblBox2_2";
-            this.lblBox2_2.Size = new System.Drawing.Size(0, 18);
-            this.lblBox2_2.TabIndex = 4;
-            // 
-            // lblBox3_2
-            // 
-            this.lblBox3_2.AutoSize = true;
-            this.lblBox3_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lblBox3_2.ForeColor = System.Drawing.Color.White;
-            this.lblBox3_2.Location = new System.Drawing.Point(26, 33);
-            this.lblBox3_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblBox3_2.Name = "lblBox3_2";
-            this.lblBox3_2.Size = new System.Drawing.Size(0, 18);
-            this.lblBox3_2.TabIndex = 5;
-            // 
-            // lblBox4_2
-            // 
-            this.lblBox4_2.AutoSize = true;
-            this.lblBox4_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lblBox4_2.ForeColor = System.Drawing.Color.Orange;
-            this.lblBox4_2.Location = new System.Drawing.Point(24, 34);
-            this.lblBox4_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblBox4_2.Name = "lblBox4_2";
-            this.lblBox4_2.Size = new System.Drawing.Size(0, 18);
-            this.lblBox4_2.TabIndex = 6;
             // 
             // usctrDashboard
             // 
@@ -393,7 +397,7 @@
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.dtgvDashboard);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "usctrDashboard";
             this.Size = new System.Drawing.Size(871, 830);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDashboard)).EndInit();
